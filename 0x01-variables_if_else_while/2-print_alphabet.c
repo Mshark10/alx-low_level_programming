@@ -3,22 +3,21 @@
 /**
  * main - Entry point
  *
- * Description: print alphabet letters
+ * Description: prints all alphabet letters
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char ch = "a";
+	char ch = 'a';
 
-	while (ch <= "z")
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
-
